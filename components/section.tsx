@@ -11,7 +11,7 @@ export function Section({ title, description }: SectionProps) {
       <HStack justify="center">
         <Heading>{title}</Heading>
         <Text>{description}</Text>
-        <Button colorScheme="green">Submit</Button>
+        <Button colorScheme="red">Submit</Button>
       </HStack>
     </>
   );
